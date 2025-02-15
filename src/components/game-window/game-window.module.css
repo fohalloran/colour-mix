@@ -1,0 +1,56 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    row-gap: 1rem;
+}
+
+.scoreContainer{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    animation: fade-in 1s;
+    
+}
+
+.scoreBox{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 25%;
+    width: 75%;
+    z-index: 10;
+    animation: fade-in 1s;
+    border-radius: 1rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.scoreButton{
+    margin: 2rem;
+    font-size: x-large;
+
+}
+
+.scoreText{
+    text-align: center;
+    font-size: xx-large;
+    padding: 2rem;
+}
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+  }

@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+}
+
+.submitBtn {
+    text-align: center;
+    font-size: larger;
+    margin: auto;
+    padding: .2rem;
+}
+
+.slider{
+    width: 100%;
+}
+
+.inputContainer {
+    margin: 5rem 1rem 1rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: repeat(2, minmax(auto, auto));
+    grid-gap: 1rem;
+    text-align: center;
+    
+}
+
+.inverted {
+    text-align: right;
+    font-size: x-large;
+    -webkit-text-stroke: 0.6px black;
+    color: white;
+}
+
+.RGBvalue{
+    font-size: large;
+}
+

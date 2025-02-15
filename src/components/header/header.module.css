@@ -1,0 +1,16 @@
+.text{
+    text-align: left;
+    font-size: x-large;
+    margin-left: 1rem;
+    display: inline;
+}
+
+.btn{
+    float:right;
+    height: 100%;
+    font-size: large;
+}
+
+.container{
+    display: inline;
+}
