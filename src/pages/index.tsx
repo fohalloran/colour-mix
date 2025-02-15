@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/header/header";
-import Target from "@/components/target/target";
 import GameWindow from "@/components/game-window/game-window";
 
 const geistSans = Geist({
